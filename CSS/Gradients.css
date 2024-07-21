@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 729px;
+    /* background: linear-gradient(green,blue,pink,yellow,orange);
+    background: linear-gradient(to top left,green,blue,pink,yellow,orange);
+    background: linear-gradient(to bottom,green,blue,pink,yellow,orange);
+    background: linear-gradient(to top,green,blue,pink,yellow,orange);
+    background: linear-gradient(to right,green,blue,pink,yellow,orange);
+    background: linear-gradient(to left,green,blue,pink,yellow,orange);
+    background: linear-gradient(to top right,green,blue,pink,yellow,orange);
+    background: linear-gradient(to bottom left,green,blue,pink,yellow,orange);
+    background-image: linear-gradient(to bottom right,green,blue,pink,yellow,orange);
+
+    background:linear-gradient(royalblue 0% 20%,white 20% 40%,black 40%);
+    background:repeating-linear-gradient(to bottom,red ,blue 10%,green 30%);
+    background:repeating-linear-gradient(to bottom right,red ,blue 10%,green 30%);
+
+
+    background:repeating-linear-gradient(to top right,red ,blue 10%,green 30%); */
+
+    /* background: radial-gradient(black,red,green);
+    background: radial-gradient(ellipse,black,red,green);
+    background: radial-gradient(circle,black,red,green);
+
+
+
+    background: radial-gradient(circle,black 0% 20%,red 20% 40%);
+
+
+    background: repeating-radial-gradient(circle,black 0% 20%,white 20% 40%); */
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+div{
+    height: 350px;
+    width: 350px;
+    /* background: conic-gradient(green,yellow,purple); */
+
+    /* background: conic-gradient(green 0% 10%,yellow 10% 20%,purple 20% 30%);
+    
+    background: repeating-conic-gradient(green 0% 10%,yellow 10% 20%,purple 20% 30%); */
+    background: repeating-conic-gradient(green 0% 10%,yellow 10% 20%,purple 20% 30%);
+    background: repeating-conic-gradient(green 0% 20%,black 20% 50%);
+    border-radius: 50%;
+    transform: rotate(-36deg);
+}

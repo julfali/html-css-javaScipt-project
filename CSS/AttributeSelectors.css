@@ -1,0 +1,28 @@
+/* input[type]{
+    color: green;
+    background-color: yellow;
+} */
+
+/* input[type="email"]{
+    background-color: purple;
+} */
+
+/* p[class~="hello"]{
+   color: blue;
+} */
+
+/* p[class|="hello"]{
+    color:deeppink;
+} */
+
+/* p[class^="hello"]{
+    color: red;
+} */
+
+/* p[class$="hello"]{
+   color: green;
+} */
+
+p[class*="bye"]{
+    color: firebrick;
+}

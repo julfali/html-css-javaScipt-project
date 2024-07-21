@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*@ POSITION RELATIVE */
+/* div{
+    height: 350px;
+    width: 350px;
+    background-color: magenta;
+    position: relative;
+    bottom: 250px;
+    top: -100px;
+    right: 300px;
+    left: 600px;
+} */
+
+/* @POSITION ABSOLUTE */
+/* section{
+    height: 600px;
+    width: 800px;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+}
+main{
+    height: 250px;
+    width: 250px;
+    background-color: orangered;
+    position: absolute;
+    top: 20px;
+} */
+/* 
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+
+}
+
+#red{
+    background-color: red;
+    position: absolute;
+}
+#green{
+    background-color: green;
+    width: 400px;
+}
+#blue{
+    background-color: blue;
+}
+
+ */
+
+ /* POSITION FIXED AND POSITION STICKY*/
+/* 
+ #one{
+    height: 1000px;
+    width: 800px;
+    background-color: yellow;
+ }
+
+ #two{
+    height: 1000px;
+    width: 800px;
+    background-color: lightskyblue;
+ }
+
+ div{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    position: fixed;
+    top: 30px;
+    left: 400px;
+
+    position: sticky;
+    top: 100px;
+ } */
+
+ /* POSITION STATIC */
+ /* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: static;
+    top: 10px;
+    left:200px
+ } */
+
+
+ /* z-index */
+
+ div{
+    height: 250px;
+    width: 250px;
+ }
+
+ img{
+    height: inherit;
+    width: inherit;
+ }
+
+ #rohit{
+    position: absolute;
+    z-index: 110;
+ }
+
+ #virat{
+    /* width: 300px; */
+    position:absolute; 
+    z-index: 2000;
+ }
+
+ #ms{
+    position: absolute;
+    z-index: 1000;
+ }

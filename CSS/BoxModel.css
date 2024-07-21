@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+h1{
+    border: 2px solid brown;
+    /* margin:10px 20px 15px 10px; */
+    /* margin:10px 20px 15px; */
+    /* margin:10px 20px; */
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+   margin-left: 10px;
+ 
+}
+
+p{
+    /* border: 2px solid hotpink; */
+    /* padding: 100px; */
+    /* padding: 2px 4px 6px 8px;
+    padding: 2px 4px 6px;
+    padding: 2px 4px; */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* padding: -100px; */
+}
+
+div{
+    border:2px solid red;
+    width: 350px;
+    height: 350px;
+    padding: 100px;
+    background-color: yellow;
+    /* box-sizing: content-box; */
+    /* box-shadow: -10px -10px 20px green inset,10px 10px 20px blue inset,10px 20px 30px white,-10px -10px 20px brown; */
+    margin: 20px 0px 0px 100px;
+    /* box-shadow: 0px -23px 25px 0px red inset, 0px -36px 30px 0px green inset, 0px -79px 40px 0px blue inset, 0px 2px 1px yellow, 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09);
+     */
+   
+     box-shadow: -10px 10px 0px rgba(33, 33, 33, 1), -20px 20px 0px rgba(33, 33, 33, 0.7), -30px 30px 0px rgba(33, 33, 33, 0.4), -40px 40px 0px rgba(33, 33, 33, 0.1);
+}

@@ -1,0 +1,135 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 100vh;
+    background-color: #111;
+}
+div{
+    height: 400px;
+    width: 400px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+    transition-delay: 3s;
+}
+
+div:hover{
+    background-color: green;
+    border-radius: 50%;
+    font-size: 100px;
+    box-shadow: 10px 10px 20px white,-10px -10px 20px white;;
+}
+ */
+
+/* #container{
+    height: 100vh;
+    border: 10px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#one,#two,#three,#four{
+  height: 600px;
+  width: 20px;
+  border-radius:20px;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+#one:hover,#two:hover,#three:hover,#four:hover,img:hover{
+    width: 550px;
+}
+
+img{
+    height: 100%;
+    width: 20px;
+    object-fit: cover;
+    border-radius:20px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+} */
+
+
+/* nav{
+    height: 70px;
+    width: 10px;
+    background-color:green;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    transition: all 4s linear 0s;
+    transition: all 4s ease 0s;
+    transition: all 4s ease-in 0s;
+    transition: all 4s ease-out 0s;
+    transition: all 4s 0s;
+}
+
+nav:hover{
+    width: 80%;
+} */
+
+body{
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 400px;
+    width: 200px;
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: inherit;
+    width: inherit;
+    /* border: 10px solid yellow; */
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top: -400px;
+    transition: all 3s ease 0s;
+}
+
+main p{
+    color: white;
+    padding: 30px;
+    text-align: justify;
+
+}
+
+
+section:hover main{
+    position: absolute;
+    top: 0px;
+}
+
+

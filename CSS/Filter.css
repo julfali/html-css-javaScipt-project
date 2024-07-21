@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: lightsteelblue; */
+}
+
+img{
+    height: 500px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 450px;
+    /* filter: blur(100px); */
+    /* filter: brightness(0.2); */
+    /* filter: brightness(50%); */
+    /* filter: grayscale(0.5); */
+    /* filter: grayscale(50%); */
+    /* filter: opacity(0.2); */
+    /* box-shadow: 10px 10px 5px red; */
+        filter: drop-shadow(10px 10px 5px red);
+     /* background-color: brown; */
+}
+
+img:hover{
+    /* filter: blur(0); */
+    /* filter: brightness(1); */
+    /* filter: grayscale(0); */
+}

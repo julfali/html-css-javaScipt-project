@@ -1,0 +1,53 @@
+/* div{
+    height: 350px;
+    width:100%;
+    background-color: salmon;
+}
+
+section{
+   height: 600px;
+   width: 600px;
+   background-color: yellow;
+} */
+
+/* body{
+   font-size: 20px;
+} */
+/* div{
+    font-size: 2em;
+} */
+/* p{
+    font-size: 30px;
+}
+
+section{
+    font-size:10px;
+}
+
+div{
+    font-size: 3em;
+} */
+
+/* html{
+    font-size: 32px;
+}
+
+div{
+    font-size: 2px;
+}
+#one{
+    font-size:2em;
+}
+
+#two{
+    font-size: 4px;
+} */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 15px solid red;
+    height: 70vh;
+    width: 20vw;
+}

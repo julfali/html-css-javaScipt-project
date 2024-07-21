@@ -1,0 +1,78 @@
+/* *HOVER */
+/* button{
+    background-color: black;
+    color: white;
+}
+
+
+
+a:hover{
+    color: crimson;
+}
+
+button:hover{
+    background-color: green;
+    color: yellow;
+}
+
+h1:hover{
+    background-color: cyan;
+}
+
+*/
+
+/* *VISITED */
+/* a:visited{
+    color:lime;
+} */
+
+/* *ACTIVE */
+/* a:active{
+    color: chocolate;
+} */
+
+/* *LINK */
+/* a:link{
+    color: red;
+    background-color: yellow;
+} */
+
+/* *FOCUS */
+input:focus{
+    color: red;
+    background-color: yellow;
+}
+
+/* *FIRST-CHILD */
+/* div>p:first-child{
+  color: red;
+} */
+
+/* *LAST-CHILD */
+div p:last-child{
+    color: firebrick;
+}
+
+/* *NTH CHILD */
+/* div p:nth-child(2){
+    color: coral;
+}
+
+div p:nth-child(even){
+    color: purple;
+}
+
+div p:nth-child(odd){
+   background-color: tomato;
+} */
+
+/* *CHECKED */
+/* input:checked+label{
+    color: deeppink;
+} */
+
+/* *NOT */
+li:not(#exclude){
+    color: darkblue;
+}
+

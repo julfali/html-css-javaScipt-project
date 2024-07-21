@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+div{
+    border: 2px solid gold;
+    background-color: purple;
+    color: #fff;
+    height: 250px;
+    width: 300px;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+/* overflow-y: scroll; */
+   overflow-x:hidden ;
+   overflow: scroll;
+    /* overflow: auto; */
+}
+

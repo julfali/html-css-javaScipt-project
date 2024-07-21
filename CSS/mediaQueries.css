@@ -1,0 +1,90 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: red;
+    background-color: black;
+    height: 100vh;
+}
+
+@media (min-width:300px) and (max-width:700px){
+    h1{
+        color: yellow;
+        background-color: green;
+        text-align: center;
+    }
+}
+
+@media (max-width:299px) {
+    h1{
+        color:fuchsia;
+        background-color: skyblue;
+        text-align: center;
+    }
+} */
+
+/* !NAVBAR TASK */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+}
+img{
+    height: 70px;
+    width: 90px;
+}
+aside{
+    height:200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+    visibility: hidden;
+}
+#one{
+    flex-basis: 12%;
+    /* border: 2px solid red; */
+    display: grid;
+    place-items: center;
+}
+
+#two{
+    flex-basis: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+a{
+ color: white;
+ font-size: 24px;
+ text-decoration: none;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+@media (max-width:700px){
+   a,img{
+    display: none;
+   }
+  .fa-bars{
+    display: block;
+  }
+  
+}

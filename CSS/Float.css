@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 230px;
+    width: 230px;
+    border: 2px solid black;
+}
+
+#red{
+    background-color: red;
+    float: left;
+    /* float: right; */
+}
+#green{
+    background-color: green;
+    float: left;
+    /* float: right; */
+}
+#blue{
+    background-color: blue;
+    /* float: right; */
+    float: left;
+}

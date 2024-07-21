@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+   height: 15%;
+   background-color:green;
+   text-align: center;
+}
+#heading{
+  padding-top: 18px;
+  color: yellow;
+  font-size: 70px;
+  letter-spacing: 20px;
+}
+main{
+    height: 75%;
+}
+img{
+    height: 400px;
+    width: 300px;
+}
+
+#details{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top: -450px;
+    padding-top: 200px;
+}
+
+.common{
+    text-align: center;
+}
+
+footer{
+    height: 10%;
+    background-color: royalblue;
+    color: white;
+    padding-top: 18px;
+    font-size: 30px;
+     text-align: center;
+  
+
+}

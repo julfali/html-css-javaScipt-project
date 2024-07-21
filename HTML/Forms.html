@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <form>
+        <label fo+r="name">Name:</label>
+        <input id="name" type="text">
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password">
+        <br><br>+
+        <button>REGISTER</button>
+        <input type="submit" value="SIGN IN">
+    </form> -->
+
+    <!-- <form autocomplete="off" target="_blank" novalidate>
+        <fieldset>
+            <legend>TRAVEL FORM</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required value="Rahul" readonly>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <label for="mobile">Mobile.no:</label>
+        <input type="tel" id="mobile" name="mobile" autofocus maxlength="10">
+        <br><br>
+        <label for="dob">DOB:</label>
+        <input type="datetime-local" name="dob">
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" placeholder="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+        <br><br>
+        <label for="places">Places:</label>
+        <input type="checkbox" id="goa" name="places" value="goa" checked>
+        <label for="goa">GOA</label>
+        <input type="checkbox" id="manali" name="places" value="manali">
+        <label for="manali">Manali</label>
+        <input type="checkbox" id="bangalore" name="places" value="bangalore">
+        <label for="bangalore">Bangalore</label>
+        <input type="checkbox" id="Kerala" name="places" value="kerala" disabled>
+        <label for="Kerala">Kerala</label>
+        <br><br>
+        <label for="country">Country:</label>
+        <select name="country">
+            <option>INDIA</option>
+            <option>AUSTRALIA</option>
+            <option>USA</option>
+            <option>CANADA</option>
+            <option>SWITZERLAND</option>
+        </select>
+        <br><br>
+        <label for="feedback">Feedback:</label>
+      <textarea id="feedback" cols="100" rows="10" name="feedback" placeholder="Enter feedback"></textarea>
+      <br><br>
+      <label for="photo">Upload your ID:</label>
+      <input type="file" name="photo">
+      <br><br>
+      <input type="submit" value="Register">
+    </fieldset>
+    </form> -->
+
+    <form autocomplete="off" target="_blank" novalidate>
+      <fieldset>
+        <legend>TRAVEL FORM</legend>
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+                value="Rahul"
+                readonly
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mobile">Mobile.no:</label></td>
+            <td>
+              <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                autofocus
+                maxlength="10"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="dob">DOB:</label></td>
+            <td><input type="datetime-local" name="dob" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Gender:</label></td>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                placeholder="male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="others" value="others" />
+              <label for="others">Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="places">Places:</label></td>
+            <td>
+              <input
+                type="checkbox"
+                id="goa"
+                name="places"
+                value="goa"
+                checked
+              />
+              <label for="goa">GOA</label>
+              <input type="checkbox" id="manali" name="places" value="manali" />
+              <label for="manali">Manali</label>
+              <input
+                type="checkbox"
+                id="bangalore"
+                name="places"
+                value="bangalore"
+              />
+              <label for="bangalore">Bangalore</label>
+              <input
+                type="checkbox"
+                id="Kerala"
+                name="places"
+                value="kerala"
+                disabled
+              />
+              <label for="Kerala">Kerala</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select name="country">
+                <option>INDIA</option>
+                <option>AUSTRALIA</option>
+                <option>USA</option>
+                <option>CANADA</option>
+                <option>SWITZERLAND</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="feedback">Feedback:</label></td>
+            <td>
+              <textarea
+                id="feedback"
+                cols="100"
+                rows="10"
+                name="feedback"
+                placeholder="Enter feedback"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="photo">Upload your ID:</label></td>
+            <td><input type="file" name="photo" /></td>
+          </tr>
+          <tr>
+            <td>
+                <input type="submit" value="Register" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

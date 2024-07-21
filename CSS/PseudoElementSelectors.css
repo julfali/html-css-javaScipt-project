@@ -1,0 +1,31 @@
+p::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+p::first-line{
+    background-color:aqua;
+}
+
+span::before{
+    content: "😒";
+}
+
+span::after{
+    content: "😋";
+}
+
+p::selection{
+    color: red;
+    background-color: black;
+}
+
+ul li::marker{
+      content: "💖";
+}
+
+
+input::placeholder{
+    color: red;
+}
+

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    box-shadow: 10px 10px 200px white;
+    position: absolute;
+    width: 100%;
+}
+
+#one{
+    height: inherit;
+    /* border: 2px solid red; */
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one img{
+    height: 40px;
+    width: 120px;
+    position: relative;
+    z-index: 100;
+}
+#two{
+    height: inherit;
+    /* border: 2px solid red; */
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#two>a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#two>a:hover{
+    color: orange;
+}
+#three{
+    height: inherit;
+    /* border: 2px solid red; */
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#three>input{
+   border-radius: 20px;
+   height: 28px;
+   width: 200px;
+   padding-left: 20px;
+   outline: none;
+}
+
+#three>button{
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: royalblue;
+    font-weight: 700;
+    
+}
+
+#three>button:hover{
+    background-color: green;
+}
+
+main{
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-family: "Honk", system-ui;
+    font-size: 80px;
+    letter-spacing: 20px;
+}

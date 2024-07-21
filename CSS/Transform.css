@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* transform: translateX(200px); */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(200px); */
+    /* transform: translate(200px); */
+    /* transform: translate(200px,100px); */
+    transition: all 2s ease 0s;
+}
+
+div:hover{
+    /* transform: translate(200px,100px); */
+    /* transform: scaleX(3);
+    transform: scaleY(0.1);
+    transform: scale(4);
+    transform: scale(0.5);
+    transform: scale(0.5); */
+    /* transform: scale(-0.5); */
+    /* transform: scale(-2); */
+    /* transform: scale(0.5,3); */
+
+    /* transform: rotate(90deg);
+    transform: rotate(-50deg); */
+
+    transform: skewX(20deg);
+    transform: skewX(-20deg);
+    transform: skewY(60deg);
+    transform: skewY(-30deg);
+
+    transform: skew(40deg);
+    transform: skew(40deg,60deg);
+}

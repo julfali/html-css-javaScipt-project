@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+background: linear-gradient(to right, #3A6073, #16222A); 
+
+}
+/* 
+h1{
+    color: white;
+    animation-name: whatever;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes whatever{
+    from{
+     font-size: 10px;
+     color: red;
+    } to{
+        font-size: 100px;
+        color: yellow;
+    }
+    
+} */
+/* 
+nav {
+  height: 400px;
+  width: 400px;
+  border: 20px solid #efefef;
+  border-radius: 50%;
+  border-top-color: red;
+  animation-name: anyName;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation: anyName 3s ease 300ms normal infinite;
+}
+
+@keyframes anyName {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* 
+header{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation: whatever 5s ease 0s alternate infinite;
+}
+
+@keyframes whatever{
+   0%{
+    background-color: red;
+    transform: scale(1);
+}25%{
+    background-color: green;
+    transform: scale(1.5);
+}50%{
+    background-color: blue;
+    transform: scale(2);
+}75%{
+    background-color: purple;
+    transform: scale(2.5);
+}100%{
+    background-color: orange;
+    transform: scale(3);
+   }
+} */
+
+h1{
+    font-family: "Honk", system-ui;
+    font-size: 250px;
+    letter-spacing: 50px;
+}
+section{
+    height: 60%;
+    width: 50%;
+    border: 1px solid white;
+    display: flex;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius:100px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    animation: flowers 20s ease 100ms alternate infinite;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+
+}
+
+@keyframes flowers {
+    0%{
+     transform: translateX(0%);
+    }25%{
+        transform: translateX(-100%);
+    }50%{
+        transform: translateX(-200%);
+    }75%{
+     transform: translateX(-300%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
